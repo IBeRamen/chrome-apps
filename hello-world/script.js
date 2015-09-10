@@ -1,4 +1,4 @@
-chrome.app.runtime.onLoad.addListener (function() {
+chrome.app.runtime.onLaunched.addListener (function() {
   var screenWidth = screen.availWidth;
   var screenHeight = screen.availHeight;
   var width = 500;
