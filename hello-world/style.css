@@ -1,0 +1,16 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url(hello_world.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-family: Ubuntu, san-serif;
+}
