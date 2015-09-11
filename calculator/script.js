@@ -1,9 +1,11 @@
 chrome.app.runtime.onLaunched.addListener (function() {
-  var screenwidth = screen.availWidth;
-  var screenheight = screen.availWidth;
-  
   chrome.app.window.create('index.html', {
     id: "Calculator",
-    
+    innerBounds: {
+      width: 350,
+      height: 450,
+      minWidth: 350,
+      minHeight: 450
+    }
   });
 });
