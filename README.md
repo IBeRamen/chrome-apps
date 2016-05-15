@@ -1,4 +1,4 @@
-# google-chrome-apps
+# Google Chrome Web Applications
 A collection of basic Google Web Applications.
 
 # Hello World
